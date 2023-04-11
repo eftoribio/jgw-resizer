@@ -3,7 +3,7 @@
 ## Do you have a set of JPG world files (.JGW files) you'd like to resize?
 ![JGW Resizer](image.png)
 
-Say you have a georeferenced JPG in a lower resolution and another non-georeferenced JPG in a higher resolution which has the same geographic extent as the georeferenced JPG. Georeferencing the higher res JPG alone is simple enough as you can use a world file calculator. But having a set of JPGs complicates things and that's where this Python script comes in to automate the process. This Python script reads in a list of world files (JGW files) located in a local directory of your choosing and then outputs a new "resized" world file for each input file according to your desired image size.
+Say you have a georeferenced JPG in a lower resolution and another non-georeferenced JPG in a higher resolution which has the same geographic extent as the georeferenced JPG. Georeferencing the higher res JPG alone is simple enough as you can use a world file calculator. But having a set of JPGs complicates things and that's where this Python script comes in to automate the process. This Python script reads in a list of world files (JGW files) located in a local directory of your choosing and then outputs a new "resized" world file for each input file according to the image size of the larger JPG.
 
 ## Usage
 - Place **jgw-resizer.py** in the same folder as your JGWs and JPGs
