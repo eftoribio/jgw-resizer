@@ -17,8 +17,8 @@ python jgw-resizer.py
 
 ## Description
 
+This script creates a JGW file for every non-georeferenced JPG which has a georeferenced counterpart in a smaller resolution.
+
 For each input world file, the script reads in its parameters, which include pixel size in both x and y directions, coordinates of the upper left corner of the image in world coordinates, and the dimensions of the image in pixels. The script then calculates new world coordinates using the specified original image size.
 
 Next, the script converts these new world coordinates to latitude and longitude using the desired output image size. The script then creates a new JGW file with updated parameters. The new JGW file is then saved in the 'output/' directory with the same name as the original file, but with the added suffix specified by the user. The script repeats this process for all input JGW files.
-
-In summary, this script creates a JGW file for a non-georeferenced JPG which has a georeferenced counterpart in a smaller resolution.
