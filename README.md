@@ -24,4 +24,4 @@ For each input world file, the script reads in its parameters, which include pix
 Next, the script converts these new world coordinates to latitude and longitude using the desired output image size. The script then creates a new JGW file with updated parameters. The new JGW file is then saved in the 'output/' directory with the same name as the original file, but with the added suffix specified by the user. The script repeats this process for all input JGW files.
 
 ## References
-[https://egb13.net/worldfile-calculator](World File Calculator by EGB13)
+[World File Calculator by EGB13](https://egb13.net/worldfile-calculator)
