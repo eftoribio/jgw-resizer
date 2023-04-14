@@ -29,7 +29,7 @@ for filename in file_list:
 print("Smaller JPG image dimensions:", smallest_dimensions)
 print("Larger JPG image dimensions:", largest_dimensions)
 
-suffix = input("Input suffix (with underscore) of larger JPGs")
+suffix = input("Input suffix (with underscore) of larger JPGs: ")
 
 # This script accepts a world file and desired image size as input and outputs a new world file
 
